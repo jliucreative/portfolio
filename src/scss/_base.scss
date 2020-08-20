@@ -1,0 +1,101 @@
+html{
+  // background-color: rgba(250, 245, 235, 1);
+  // background-color: white;
+  // width: 93vw;
+
+  // background: linear-gradient(135deg, rgba(250, 250, 250,1) 70%, white 0%);
+  // background: linear-gradient(135deg, rgba(250, 250, 250,1) 70%, white 30%);
+  scrollbar-width: thin;
+  scrollbar-color: white rgba(maroon, .3);
+  animation: bg 7s infinite;
+}
+@keyframes bg
+{
+  0%   {background: rgba(0, 0, 0,.07)}
+  // 25%  {background: rgba(250, 250, 250,1)}
+  50%  {background: white}
+  // 75%  {background: rgba(250, 250, 250,1)}
+  100% {background: rgba(0, 0, 0,.07)}
+}
+
+.App{
+  font-family: "Avenir Next", sans-serif;
+  margin: 0;
+  left: 0px;
+  height: 170vh;
+}
+
+h1{
+  width: 100vw;
+  @include double;
+  left: 6vw;
+  top: 5vh;
+  // @include paper1;
+}
+
+.arrowL{
+  @include arrowLeft;
+}
+
+.arrow{
+  @include arrowMid;
+}
+
+.arrowR{
+  @include arrowRight;
+}
+
+#bl{
+  background-color: pink;
+  color: green;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+#scroll1, #scroll2, #scroll3{
+  position: fixed;
+}
+
+#scroll2, #scroll3, #toast{
+  display: none;
+}
+
+#top{
+  position: absolute;
+  top: 1px;
+}
+
+#works{
+  position: absolute;
+  top: 151px;
+}
+
+#resume{
+  position: absolute;
+  top: 451px;
+}
+
+#arrow1{
+  @include arrow;
+  left: 45px;
+}
+
+#arrow2{
+  @include arrow;
+  margin-left: 37px;
+  z-index: -1;
+}
+
+#arrow3{
+  @include arrow;
+  padding-left: 37px;
+  #topLeft{
+    transform: rotate(315deg);
+    margin-top: -10px;
+  }
+  #topRight{
+    transform: rotate(45deg);
+    margin-top: -10px;
+  }
+}

@@ -1,0 +1,101 @@
+[
+    {
+        "id": "0",
+        "title": "Jliu Creative",
+        "img":"https://res.cloudinary.com/dvb47ms93/image/upload/v1596417955/jliucreative/jliu_cu0mpu.png",
+        "desc":"Web application portfolio developed to showcase works Joanne Liu has created.",
+        "tools":"tools: react, json, jquery, javascript, scss, html, + adobe illustrator",
+        "link":"/joanneliuResume.pdf",
+        "code":""
+    },
+    {
+        "id": "1",
+        "title": "Nori Maki Bar",
+        "img":"https://res.cloudinary.com/dvb47ms93/image/upload/v1596417954/jliucreative/nori_vsty2h.png",
+        "desc":" Conceptualized a new brand identity to be implemented into the website development and all print material designs for Nori Maki Bar.",
+        "tools":"tools: html, scss, jquery, javascript, + adobe illustrator",
+        "link":"http://norimakibar.com/",
+        "code":""
+    },
+    {
+        "id": "2",
+        "title": "The Adeptist",
+        "img":"https://res.cloudinary.com/dvb47ms93/image/upload/v1596418558/jliucreative/adeptist_nrsksl.png",
+        "desc":"Rebranded company including products, website, brand identity, and brand image for The Adeptist.",
+        "tools":"tools: html, css, shopify, adobe illustrator, + adobe photoshop",
+        "link":"https://theadeptist.com/",
+        "code":""
+    },
+    {
+        "id": "3",
+        "title": "White Space",
+        "img":"https://res.cloudinary.com/dvb47ms93/image/upload/v1596486323/jliucreative/whiteSpace_uzekmt.png",
+        "desc":"Designed, developed, and deployed website with digital and print graphics for White Space.",
+        "tools":"tools: html, css, jquery, javascript, + adobe illustrator",
+        "link":"https://whitespacelogistics.com",
+        "code":""
+    },
+    {
+        "id": "4",
+        "title": "ALTEC",
+        "img":"https://res.cloudinary.com/dvb47ms93/image/upload/v1596486067/jliucreative/altec_et6kov.png",
+        "desc":"Invented new cohesive ALTEC Brand Identity where no identity existed previously. Designed for all print content, email assets, social media images, website branding, and web marketing.",
+        "tools":"tools: web express, adobe illustrator, adobe photoshop, + microsoft suite",
+        "link":"https://www.colorado.edu/center/altec/",
+        "code":""
+    },
+    {
+        "id": "5",
+        "title": "Shanao Cacao",
+        "img":"https://res.cloudinary.com/dvb47ms93/image/upload/v1596418561/jliucreative/shanao_x51qjm.png",
+        "desc":"Designed ethic based pitch-deck for investors and product packaging.",
+        "tools":"tools: adobe illustrator, adobe photoshop, + google slides ",
+        "link":"",
+        "code":""
+    },
+    {
+        "id": "6",
+        "title": "Wonderlist",
+        "img":"https://res.cloudinary.com/dvb47ms93/image/upload/v1596417954/jliucreative/wonderlist_t6mvcs.png",
+        "desc":"Android mobile application developed so the user can create custom day of packing list, overall packing list, and view destination weather.",
+        "tools":"tools: java, realm data, device local data, version control, + adobe illustrator",
+        "link":"",
+        "code":"https://github.com/7joanneliu/joanneLiu_adv_MAD/tree/master/p2/app/src/main"
+    },
+    {
+        "id": "7",
+        "title": "Cheaper",
+        "img":"https://res.cloudinary.com/dvb47ms93/image/upload/v1596417954/jliucreative/cheaper_nxkjfz.png",
+        "desc":"iOS mobile application developed for users to compare products of similar categories, to calculate the most cost efficient option.",
+        "tools":"tools: swift, version control, + adobe illustrator",
+        "link":"",
+        "code":"https://github.com/7joanneliu/joannneLiu_MAD/tree/master/PROJECT1/project1/project1"
+    },
+    {
+        "id": "8",
+        "title": "Convert",
+        "img":"https://res.cloudinary.com/dvb47ms93/image/upload/v1596417954/jliucreative/convert_cahgxg.png",
+        "desc":"Android mobile application developed to convert cooking measurments between metric to imperial values.",
+        "tools":"tools: java, + version control",
+        "link":"",
+        "code":"https://github.com/7joanneliu/joannneLiu_MAD/tree/master/convert/app/src/main"
+    },
+    {
+        "id": "9",
+        "title": "Frontend Web Dev. Portfolio",
+        "img":"https://res.cloudinary.com/dvb47ms93/image/upload/v1596417955/jliucreative/FWD_bly0yn.png",
+        "desc":"Class website portfolio created to house all projects and labs created in Front-End Development class.",
+        "tools":"tools: html, css, jquery, javascript, firebase, json, rest api, + adobe illustrator",
+        "link":"FWD/index.html",
+        "code":""
+    },
+    {
+        "id": "10",
+        "title": "JILA",
+        "img":"https://res.cloudinary.com/dvb47ms93/image/upload/v1596417955/jliucreative/JILA_n0wmrs.png",
+        "desc":"Executed, designed, and produced the JILA Calendar, print materials, and digital graphics.",
+        "tools":"tools: adobe illustrator, adobe photoshop, microsoft suite, + web express",
+        "link":"",
+        "code":""
+    }
+]

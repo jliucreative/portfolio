@@ -1,0 +1,147 @@
+@mixin double{
+  position: inherit;
+  text-align: center;
+  font-size: 10vh;
+  font-weight: 500;
+  color: white;
+  // z-index: 1;
+  max-width: 90vw;
+  top: 7vh;
+  text-shadow: -1px -1px 0 black,
+                1px -1px 0 black,
+		            -1px 1px 0 black,
+		            1px 1px 0 black,
+
+                4px 4px 0 lightgrey,
+                5px 3px 0 grey,
+                5px 5px 0 grey,
+                3px 5px 0 grey;
+}
+
+@mixin paper{
+  text-shadow: -3px -1.5px .5px lightgrey,
+                .07px .07px 0 lightgrey,;
+  letter-spacing: -.5vh;
+  font-size: 11vw;
+}
+
+@mixin paper1{
+  font-weight: 600;
+  font-size: 7vw;
+  letter-spacing: -.5vh;
+  background-color: lightgrey;
+  -webkit-backgorund-clip: text;
+  -mox-background-clip: text;
+  background-clip: text;
+  margin-left: 30vw;
+  color: transparent;
+  text-shadow: rgba(245, 245, 245, .5) 3px 5px 1px;
+}
+
+@mixin line($length){
+  position: fixed;
+  width: $length;
+  height: 1px;
+  background-color: rgba(darkgrey, .7);
+  border: white;
+}
+
+@mixin arrowLeft{
+  @include line(25px);
+  transform: rotate(45deg);
+  left: 34px;
+  margin-top: 23px;
+}
+
+@mixin arrowRight{
+  @include line(25px);
+  transform: rotate(315deg);
+  left: 51px;
+  margin-top: 23px;
+}
+
+@mixin arrowMid{
+  @include line(50px);
+  transform: rotate(90deg);
+  left: 30px;
+}
+
+@mixin arrow{
+  position: fixed;
+  top: auto;
+  bottom: 5vh;
+  width: 20px;
+  height: 45px;
+  cursor: cell;
+  background-color: inherit;
+  outline-style: none;
+  border: none;
+}
+
+@mixin bod{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+@mixin link{
+  color: black;
+  list-style: none;
+  font-weight: 200;
+  text-decoration: none;
+  cursor: cell;
+}
+
+@mixin buttons{
+  background-color: inherit;
+  font-weight: 300;
+  font-size: 13px;
+  border: none;
+  outline-style: none;
+  cursor: cell;
+}
+
+@mixin buttonX{
+  cursor: cell;
+  color: maroon;
+  position: fixed;
+}
+
+@mixin projectPosition{
+  position: fixed;
+  left: 30px;
+  width: 60vw;
+  margin-top: 10vh;
+}
+
+@mixin bubble{
+  margin-right: 2vw;
+  margin-bottom: 2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: white;
+  border-style: solid;
+  border-radius: 15px 15px 15px 0px;
+  border-color: grey;
+  border-width: 1px;
+  box-shadow: 5px 5px 0 rgba(lightgrey, .7),
+              6px 4px 0 white,
+              6px 6px 0 white,
+              4px 6px 0 white;
+}
+
+@mixin bubBut{
+  background-color: white;
+  border-style: solid;
+  border-radius: 15px 15px 15px 0px;
+  border-color: grey;
+  border-width: 1px;
+  box-shadow: 5px 5px 0 rgba(lightgrey, .7),
+              6px 4px 0 white,
+              6px 6px 0 white,
+              4px 6px 0 white;
+  cursor: cell;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,81 @@
+.App-header{
+  z-index: 1;
+  #line{
+    top: 40vh;
+    left: 0px;
+    @include line(100vw);
+    z-index: 1;
+  }
+  #lineL{
+    @include line(50px);
+    top: 40vh;
+    transform: rotate(90deg);
+    left: 30px;
+  }
+  #lineR{
+    @include line(50px);
+    top: 40vh;
+    transform: rotate(90deg);
+    right: 30px;
+  }
+}
+
+nav{
+  height: 100%;
+  ul{
+    li{
+      list-style: none;
+    }
+    a, button{
+      padding: 0px;
+      cursor: cell;
+      z-index: 0;
+      border: none;
+      outline-style: none;
+      background-color: rgba(0, 0, 0, 0);
+      img{
+        margin-left: 0px;
+        width: 37px;
+        z-index: 0;
+      }
+    }
+
+    #hButton, #wButton, #rButton, #Email-button, #LI-button, #toast{
+      writing-mode: vertical-lr;
+      position: fixed;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      left: 15px;
+      @include link;
+    }
+    #Email-button, #LI-button{
+      left: auto;
+      right: 7px;
+    }
+    #wSelected, #mSelected, #gSelected{
+      text-decoration: none;
+      color: black;
+    }
+    #hButton{
+      top: 0px;
+    }
+    #wButton{
+      top: 32vh;
+    }
+    #Email-button{
+      top: 35vh;
+    }
+    #toast{
+      top: 27vh;
+      left: auto;
+      right: 13px;
+    }
+    #rButton{
+      top: 43vh;
+    }
+    #LI-button{
+      top: 41vh;
+      z-index: 1;
+    }
+  }
+}
