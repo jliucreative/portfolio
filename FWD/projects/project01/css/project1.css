@@ -1,0 +1,86 @@
+html{
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: Courier;
+}
+
+p{
+  font-size: 1em;
+  padding-top: 10%;
+  padding-left: 25px;
+  width: 50%;
+}
+
+h2, h3{
+  font-size: 1.5em;
+  color: grey;
+  text-align: center;
+  display: none;
+}
+
+#info0, #info1, #info2{
+  padding-top: 0;
+}
+
+.hidden{
+  display: none;
+}
+
+.title img{
+  width: 70%;
+}
+.arrow img,.arrowStatic img{
+  width: 150px;
+}
+
+.WomCh img{
+  width: 20%;
+  position: fixed;
+  bottom: 20px;
+}
+
+.portraitsz img{
+  width: 300px;
+  right: 0;
+}
+
+.portraitsz{
+  right: 0px;
+  bottom: 100px;
+  position: absolute;
+}
+
+.slideRight img{
+  width: 700px;
+  padding-bottom: 25px;
+}
+
+.slideRight{
+  position: absolute;
+  bottom: 0;
+}
+
+.arrow{
+  position: absolute;
+}
+
+.arrowStatic{
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+}
+
+#info1, #info2, #arrowHover, #df1, #df2, #df3, #df4, #df5, #df6, #df7 {
+  display: none;
+}
+
+#df1, #df2, #df3, #df4, #df5, #df6, #df7{
+  padding-top: 0;
+}
+
+#df6{
+  color: grey;
+}

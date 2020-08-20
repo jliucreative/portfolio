@@ -1,0 +1,79 @@
+h1{
+  font-size: 3em;
+  font-weight: lighter;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding-top: 10%;
+  margin-bottom: 5%;
+}
+
+html{
+  background-color: tan;
+}
+
+.formBody{
+  text-align: left;
+  display: inline-block;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li{
+  display: inline;
+}
+
+a{
+  margin: auto;
+  /* margin-left: 30%; */
+  /* display: block; */
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
+  padding-left: 10px;
+  align-items: center;
+}
+
+ul a:hover{
+  color: white;
+}
+
+.formStart{
+  display: block;
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+button{
+  display: block;
+  margin-left: 45%;
+}
+
+.enter{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.user_status{
+  display: block;
+  margin-left: 50%;
+}
+
+.labels{
+  text-align: center;
+  /* padding-left: 45%; */
+}
+
+.labels li{
+  margin: 10%;
+}
+
+.menu{
+  text-align: center;
+}

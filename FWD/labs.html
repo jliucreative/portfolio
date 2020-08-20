@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+  <head>
+    <meta charset="utf-8">
+    <title>labs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- lab5 -->
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCjWl2Z4lkE4Jfvvj21Udeltu7OlkYGdmA",
+        authDomain: "lab05-6941a.firebaseapp.com",
+        databaseURL: "https://lab05-6941a.firebaseio.com",
+        projectId: "lab05-6941a",
+        storageBucket: "lab05-6941a.appspot.com",
+        messagingSenderId: "1006708241910"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <!-- lab5 end-->
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://apis.google.com/js/client.js">
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="header">
+        <h1><a href="index.html">joanne liu</a> </h1>
+
+        <div class="banner">
+          <img id="bannerImg" src="img/0.png" alt="Idea. Concept. Execute.">
+          <!-- <img src="../img/idea.png" alt="Idea represented by seed.">
+          <img src="../img/concept.png" alt="Concept represented by seedling.">
+          <img src="../img/execute.png" alt="Execute represented by a plant."> -->
+        </div>
+
+        <!-- <div id="button" class="hamburgerContainer"> -->
+          <button id="button">
+          <div class="hamburger">
+            <div class="menu"></div>
+            <div class="menuMid"></div>
+            <div class="menu"></div>
+            </button>
+          </div>
+          <div id="menuOptions"class="expandedMenu">
+            <ul>
+              <li><a href="projects.html">projects</a></li>
+              <li><a href="#">labs</a></li>
+              <li><a href="https://7joanneliu.wordpress.com">journal</a> </li>
+            </ul>
+          </div> <!--expandedMenuDiv-->
+        <!-- </div> -->
+      </div>
+      <!--headerEND-->
+  <body>
+      <div class="labContainer">
+        <h1>LABS</h1>
+
+        <div class="divider">  </div>
+        <h2>one</h2>
+        <ul>
+          <li>hamburger menu (mobile size)</li>
+          <br>
+          <li>mouse in | mouse out (main page)</li>
+        </ul>
+
+        <div class="divider"></div>
+        <a href="labs/lab02/lab02.html"><h2>two</h2></a>
+        <ul>
+          <li>debug code given to us</li>
+        </ul>
+
+        <div class="divider"></div>
+        <h2>three</h2>
+        <ul>
+          <li>fade in (main page)</li>
+          <br>
+          <li>color changing icons</li>
+          <br>
+          <li>click icons | toggle menu</li>
+        </ul>
+
+        <div class="divider"></div>
+        <h2 id="lab4Button">four</h2>
+        <ul>
+          <li>youtube searchbar (hidden searchbar)</li>
+          <br>
+          <li>--one jazz video</li>
+        </ul>
+        <main>
+		        <input id="query" value='jazz' type="text" />
+		        <!-- <button id="search-button">jazz</button> -->
+		        <section id="results"></section>
+	      </main>
+
+        <div class="divider"></div>
+        <h2 id="lab5Button">five</h2>
+        <ul>
+          <li>click counter</li>
+          <br>
+          <li>--counts and displays how many times 'five' is clicked</li>
+          <p id="clicked">times clicked: ?</p>
+        </ul>
+
+        <div class="divider"></div>
+        <script src="js/main.js"></script>
+        <script src="js/lab5.js"></script>
+
+        <!-- <div class="divider"></div>
+        <h2><a id="lab4Button"href="react/lab6">six</a></h2>
+        <ul>
+          <li>react row filler</li>
+          <br>
+          <li> --fills a row with alternating arrows</li>
+        </ul> -->
+
+        <div class="divider"></div>
+        <script src="js/main.js"></script>
+        <script src="js/lab5.js"></script>
+      </div> <!-- lab end -->
+  </body>
+</html>

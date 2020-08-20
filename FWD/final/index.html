@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Final</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBIdnweMT0tJmARtBICR3arF5UHkxVd1YI",
+    authDomain: "final2018-93f56.firebaseapp.com",
+    databaseURL: "https://final2018-93f56.firebaseio.com",
+    projectId: "final2018-93f56",
+    storageBucket: "final2018-93f56.appspot.com",
+    messagingSenderId: "735723147586"
+  };
+  firebase.initializeApp(config);
+</script>
+<!-- JQUERY/API -->
+<script
+src="http://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <h1>Report A Wildfire</h1>
+
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Report</a></li>
+        <li><a href="incidents.html">Incidents</a></li>
+        <li><a href="information.html">information</a> </li>
+      </ul>
+    </div>
+<div class="img">
+  <img src="img/wildfire_fighter5.jpg" alt="fire">
+</div>
+<br>
+
+    <div id="user_authenticate">
+	<span id="user_status"> </span>
+	<button type="button" id="signin">Sign In</button>
+	<button type="button" id="signout">Sign Out</button>
+  </div>
+
+
+    <div class="formStart">
+
+      <div class="formBody">
+        <fieldset>
+          <label for="YN" class="label">Was anyone affected?</label>
+          <input type="radio" name="YN" value="yes">
+          <label for="Y">Yes</label>
+          <input type="radio" name="YN" value="no">
+          <label for="N">No</label>
+          <br>
+
+          <label for="YN" class="label">Was a structure affected?</label>
+          <input type="radio" name="NY" value="yes">
+          <label for="Y">Yes</label>
+          <input type="radio" name="NY" value="no">
+          <label for="N">No</label>
+          <br>
+          <br>
+
+          <label for="name" class="label">Name</label>
+          <input type="text" name="name" id="name" size="21" required>
+          <br>
+          <br>
+          <label for="email" class="label">Email</label>
+          <input type="email" name="email" id="email" size="21" required>
+          <br>
+          <br>
+          <label for="phone" class="phone">Phone</label>
+          <input type="number" name="phone" id="phone" size="21">
+          <br>
+          <br>
+          <label for="location" class="location">Location</label>
+          <input type="text" name="location" id="location" size="21">
+          <br>
+          <br>
+          <br>
+          <label for="description">Description</label>
+          <textarea name="description" rows="5" cols="50"></textarea>
+        </fieldset>
+        <br>
+        <br>
+        <button type="submit" id="enter">Report</button>
+    </div>
+    </form>
+    </div>
+
+
+<script src="js/main.js"></script>
+  </body>
+</html>

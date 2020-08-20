@@ -1,0 +1,44 @@
+html{
+  background-color: lightgrey;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  font-size: 1em;
+  font-weight: normal;
+}
+
+h3{
+  text-align: center;
+}
+
+.menu{
+  display: flex;
+}
+
+ul{
+  list-style: none;
+  list-style-type: none;
+}
+
+a{
+  list-style-type: none;
+}
+
+button{
+  background-color: lightgrey;
+}
+
+
+/* destinations */
+#cyclocross, #mountain, #road, #ep, #bvp{
+  display: none;
+}
+
+/* safety */
+#rrp{
+  display: none;
+}

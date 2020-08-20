@@ -1,0 +1,83 @@
+html{
+  font-family: "Avenir Next", sans-serif;
+  font-weight: lighter;
+  color: white;
+  background-color: lightblue;
+}
+
+/* TITLE */
+h1{
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
+    margin: auto;
+    margin-bottom: none;
+    width: 35%;
+    padding-top: 7%;
+  }
+
+h3{
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+#titleDesc{
+  text-align: center;
+  padding-top: none;
+}
+
+.weatherTitle, #condition{
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+#condition{
+  margin-top: 0px;
+}
+
+.weatherTitleDesc, #HL{
+  font-size: .75em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#DHTitle, #plus, #DLTitle, #dailyLow, #dailyHigh{
+  margin-bottom: 0px;
+}
+/* TITLE END */
+
+
+
+/* WEATHER */
+#dailyWeather, #HL{ /*whole container*/
+  display: flex
+}
+
+#dailyWeatherIcon{
+  border-style: solid;
+  border-width: thin;
+  width: 250px;
+  height: 250px;
+  margin-right: 15px;
+  background-size: contain;
+  background-image: url('../img/sun.png');
+}
+
+#DHTitle, #DLTitle, #plus{
+  margin-right: 5px;
+}
+
+#DLTitle, #plus{
+  margin-left: 5px;
+}
+
+/* WEATHER END */
+
+
+
+.divider{
+  background-color: white;
+  height: 1px;
+  width: 100%;
+  justify-content: center;
+}

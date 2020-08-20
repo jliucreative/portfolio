@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Final</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBIdnweMT0tJmARtBICR3arF5UHkxVd1YI",
+    authDomain: "final2018-93f56.firebaseapp.com",
+    databaseURL: "https://final2018-93f56.firebaseio.com",
+    projectId: "final2018-93f56",
+    storageBucket: "final2018-93f56.appspot.com",
+    messagingSenderId: "735723147586"
+  };
+  firebase.initializeApp(config);
+</script>
+<!-- JQUERY/API -->
+<script
+src="http://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <h1>Report A Wildfire</h1>
+<div class="menu">
+  <ul>
+    <li><a href="index.html">Report</a></li>
+    <li><a href="incidents.html">Incidents</a></li>
+    <li><a href="information.html">information</a> </li>
+  </ul>
+</div>
+
+    <img src="img/wildfire2.jpg" alt="">
+
+    <div class="labels">
+      <ul>
+        <li>name</li>
+        <li>location</li>
+        <li>phone</li>
+        <li>email</li>
+      </ul>
+    </div>
+
+    <div class="labels">
+      <ul>
+        <li id="name"></li>
+        <li id="location"></li>
+        <li id="phone"></li>
+        <li id="email"></li>
+      </ul>
+    </div>
+
+    <div class="info" id="info">
+
+    </div>
+
+<script src="js/main.js"></script>
+  </body>
+</html>
