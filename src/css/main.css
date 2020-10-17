@@ -191,15 +191,15 @@ nav {
   nav ul #hButton {
     top: 0px; }
   nav ul #wButton {
-    top: 32vh; }
+    top: 34vh; }
   nav ul #Email-button {
-    top: 35vh; }
+    top: 36vh; }
   nav ul #toast {
     top: 27vh;
     left: auto;
     right: 13px; }
   nav ul #rButton {
-    top: 43vh; }
+    top: 42vh; }
   nav ul #LI-button {
     top: 41vh;
     z-index: 1; }
@@ -404,8 +404,6 @@ nav {
   #scroll3 #rText #expand1, #scroll3 #rText #expand2, #scroll3 #rText #expand3 {
     overflow: auto;
     scrollbar-width: thin; }
-  #scroll3 #rText #expand2, #scroll3 #rText #expand3 {
-    height: 40vh; }
 #scroll3 .bottom {
   padding-bottom: 10px; }
 

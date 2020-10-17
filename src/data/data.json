@@ -5,8 +5,8 @@
         "img":"https://res.cloudinary.com/dvb47ms93/image/upload/v1596417955/jliucreative/jliu_cu0mpu.png",
         "desc":"Web application portfolio developed to showcase works Joanne Liu has created.",
         "tools":"tools: react, json, jquery, javascript, scss, html, + adobe illustrator",
-        "link":"https://github.com/jliucreative/portfolio/blob/source/public/pdf/joanneliuResume.pdf",
-        "code":""
+        "link":"https://jliucreative.com/pdf/joanneliuResume.pdf",
+        "code":"https://github.com/jliucreative/portfolio"
     },
     {
         "id": "1",
@@ -87,7 +87,7 @@
         "desc":"Class website portfolio created to house all projects and labs created in Front-End Development class.",
         "tools":"tools: html, css, jquery, javascript, firebase, json, rest api, + adobe illustrator",
         "link":"FWD/index.html",
-        "code":""
+        "code":"https://github.com/jliucreative/portfolio/tree/source/public/FWD"
     },
     {
         "id": "10",

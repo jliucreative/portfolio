@@ -202,7 +202,7 @@ class App extends React.Component{
 
         <div id="scroll3">
           <h1>resume.</h1>
-          <a id="rdown" href="https://github.com/jliucreative/portfolio/blob/source/public/pdf/joanneliuResume.pdf" target="_blank">download</a>
+          <a id="rdown" href="https://jliucreative.com/pdf/joanneliuResume.pdf" target="_blank">download</a>
 
           <div id="rText">
           <button id="button1" onClick={() => this.display1()}>EDUCATION</button>

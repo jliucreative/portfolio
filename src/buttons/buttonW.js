@@ -15,6 +15,18 @@ class NewWebComponent extends React.Component{
     document.getElementById("pImg").src= jsonData[numb].img;
     document.getElementById("pTools").innerHTML=jsonData[numb].tools;
     document.getElementById("pLink").href= jsonData[numb].link;
+    document.getElementById("pCode").style.display="none";
+  }
+
+  displayProjectCoded(numb){
+    document.getElementById("project").style.display = "block";
+    document.getElementById("pTitle").innerHTML= jsonData[numb].title;
+    document.getElementById("pDesc").innerHTML= jsonData[numb].desc;
+    document.getElementById("pImg").src= jsonData[numb].img;
+    document.getElementById("pTools").innerHTML=jsonData[numb].tools;
+    document.getElementById("pLink").href= jsonData[numb].link;
+    document.getElementById("pCode").style.display="inline";
+    document.getElementById("pCode").href= jsonData[numb].code;
   }
 
     hideProject(){
@@ -31,14 +43,15 @@ class NewWebComponent extends React.Component{
       <img id="pImg" src={jsonData[2].img} alt="test"></img>
       <p id="pDesc">project description loading...</p>
       <p><a id="pLink" href="" target="_blank">link</a></p>
+      <p><a id="pCode" href="" target="_blank">code</a></p>
       </div>
 
       <ul>
-        <li><button onClick={() => this.displayProject(0)}>Jliu Creative</button></li>
+        <li><button onClick={() => this.displayProjectCoded(0)}>Jliu Creative</button></li>
         <li><button onClick={() => this.displayProject(1)}>Nori Maki Bar</button></li>
         <li><button onClick={() => this.displayProject(2)}>The Adeptist</button></li>
         <li><button onClick={() => this.displayProject(3)}>White Space</button></li>
-        <li><button onClick={() => this.displayProject(9)}> FWD Class Portal</button></li>
+        <li><button onClick={() => this.displayProjectCoded(9)}> FWD Class Portal</button></li>
       </ul>
       </div>
     );

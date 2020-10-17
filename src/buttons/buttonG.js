@@ -14,12 +14,17 @@ class NewGComponent extends React.Component{
       document.getElementById("pDesc").innerHTML= jsonData[numb].desc;
       document.getElementById("pImg").src= jsonData[numb].img;
       document.getElementById("pTools").innerHTML=jsonData[numb].tools;
-      if (numb == 5){
-        document.getElementById("pLink").style.display= "none";
-      }
-      else {
-        document.getElementById("pLink").href= jsonData[numb].link;
-      }
+      document.getElementById("pLink").style.display="inline";
+      document.getElementById("pLink").href= jsonData[numb].link;
+    }
+
+    displayProjectGraphic(numb){
+      document.getElementById("project").style.display = "block";
+      document.getElementById("pTitle").innerHTML= jsonData[numb].title;
+      document.getElementById("pDesc").innerHTML= jsonData[numb].desc;
+      document.getElementById("pImg").src= jsonData[numb].img;
+      document.getElementById("pTools").innerHTML=jsonData[numb].tools;
+      document.getElementById("pLink").style.display="none";
     }
 
     hideProject(){
@@ -44,7 +49,7 @@ class NewGComponent extends React.Component{
           <li><button onClick={() => this.displayProject(1)}>Nori Maki Bar</button></li>
           <li><button onClick={() => this.displayProject(4)}>ALTEC</button></li>
           <li><button onClick={() => this.displayProject(3)}>White Space</button></li>
-          <li><button onClick={() => this.displayProject(5)}>Shanao Cacao</button></li>
+          <li><button onClick={() => this.displayProjectGraphic(5)}>Shanao Cacao</button></li>
         </ul>
         </div>
       </div>
