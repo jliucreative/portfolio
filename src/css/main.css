@@ -386,7 +386,8 @@ nav {
     padding-left: 11px; }
   #scroll3 #rText ul {
     margin: 0;
-    list-style: none; }
+    list-style: none;
+    height: auto; }
     #scroll3 #rText ul li {
       font-size: 12px;
       font-weight: 300; }
@@ -402,6 +403,7 @@ nav {
   #scroll3 #rText #expand2, #scroll3 #rText #expand3 {
     display: none; }
   #scroll3 #rText #expand1, #scroll3 #rText #expand2, #scroll3 #rText #expand3 {
+    max-height: 45vh;
     overflow: auto;
     scrollbar-width: thin; }
 #scroll3 .bottom {

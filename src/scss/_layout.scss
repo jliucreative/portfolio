@@ -146,6 +146,7 @@
       ul{
         margin: 0;
         list-style: none;
+        height: auto;
         li{
           font-size: 12px;
           font-weight: 300;
@@ -170,6 +171,7 @@
         display: none;
       }
       #expand1, #expand2, #expand3{
+        max-height: 45vh;
         overflow: auto;
         scrollbar-width: thin;
       }
